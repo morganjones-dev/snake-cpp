@@ -1,0 +1,6 @@
+#!/bin/sh
+
+[[ ! -d "dist" ]] && mkdir dist
+cd dist
+cmake ..
+make
